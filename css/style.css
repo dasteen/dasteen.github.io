@@ -241,6 +241,17 @@ body, html {
 	outline: none;
 }
 
+#send:hover {
+	background: #1cd6a7;
+}
+
+#send:active {
+	background: #1dc399;
+	box-shadow:
+   		inset 0 1px 1px rgba(0,10,20,.5),
+   		0 0 1px rgb(86,96,106);
+}
+
 .empty {
 	height: 55px;
 }
