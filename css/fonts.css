@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "Gotham-Book";
+	src: url("../fonts/gotham-book.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url("../fonts/montserrat/Montserrat-Regular.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Montserrat-Bold";
+	src: url("../fonts/montserrat/Montserrat-Bold.otf");
+	font-size: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Montserrat-UltraLight";
+	src: url("../fonts/montserrat/Montserrat-UltraLight.otf");
+	font-size: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Montserrat-Light";
+	src: url("../fonts/montserrat/Montserrat-Light.otf");
+	font-size: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Montserrat-SemiBold";
+	src: url("../fonts/montserrat/Montserrat-SemiBold.otf");
+	font-size: normal;
+	font-weight: normal;
+}

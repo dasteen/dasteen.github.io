@@ -1,0 +1,286 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	min-width: 900px;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.header {
+	background: #04e4a2;
+	height: 15px;
+}
+
+.logo {
+	position: absolute;
+	background: #ef5360;
+	height: 60px;
+	width: 135px;
+	margin-left: 120px;
+	text-align: center;
+	box-shadow: 0 0 30px 2px rgba(0,0,0,0.2);
+}
+
+.indipixel {
+	display: inline-block;
+	margin-top: 20px;
+	color: #fff;
+	font-family: Montserrat-Bold;
+	font-size: 21px;
+}
+
+.primary {
+	background: #ef5360;
+	height: 350px;
+}
+
+.first_line {
+	width: 400px;
+	height: 290px;
+	background: linear-gradient(38deg, transparent 180px, #04e4a2 181px, #04e4a2 227px, transparent 228px);
+	position: absolute;
+	top: 76px;
+}
+
+.first_line:after {
+	content:'';
+	border: 0px solid transparent;
+	border-top: 47px solid #04e4a2;
+	border-left: 62px solid transparent;
+	border-right: 15px solid transparent;
+	position: absolute;
+	bottom: -46px;
+	left: 292px;
+}
+
+.second_line {
+	width: 400px;
+	height: 290px;
+	background: linear-gradient(38deg, transparent 180px, #69f0ae 181px, #69f0ae 227px, transparent 228px);
+	position: absolute;
+	top: 134px;
+}
+
+.second_line:after {
+	content:'';
+	border: 0px solid transparent;
+	border-top: 47px solid #69f0ae;
+	border-left: 62px solid transparent;
+	border-right: 15px solid transparent;
+	position: absolute;
+	bottom: -46px;
+	left: 292px;
+}
+
+.phone_img {
+	position: absolute;
+	height: 470px;
+	top: 95px;
+	left: 95px;
+}
+
+.information {
+	height: 350px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.contact_up {
+	display: inline-block;
+	float: right;
+	margin-right: 40px;
+	margin-top: 20px;
+	border-bottom: 2px solid #fdd835;
+}
+
+.contact_a {
+	font-family: Gotham-Book;
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.info {
+	margin-left: 410px;
+	margin-top: 140px;
+	color: #fff;
+	width: 390px;
+}
+
+.info span {
+	display: inline-block;
+}
+
+.first_info {
+	font-family: Montserrat-Regular;
+	font-size: 20px;
+}
+
+.second_info {
+	margin-top: 10px;
+	font-family: Montserrat-UltraLight;
+	font-size: 14px;
+}
+
+.contact_down {
+	display: inline-block;
+	font-family: Montserrat-Regular;
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+	padding: 10px 14px 10px;
+	background: #ffb74d;
+	border-radius: 5px;
+	float: right;
+	margin-top: 14px;
+}
+
+.contact_down:hover {
+	background: #f3ae49;
+}
+
+.contact_down:active {
+	background: #f3ae49;
+	box-shadow:
+   		inset 0 1px 1px rgba(0,10,20,.5),
+   		0 0 1px rgb(86,96,106);
+}
+
+.secondary {
+	height: 300px;
+	background: #ffffff;
+}
+
+.form_helper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.form_div {
+	margin: 30px 0px 0px 410px;
+	font-family: Montserrat-Light;
+	width: 390px;
+}
+
+.head_form {
+	color: #ff8a80;
+	padding-left: 15px;
+}
+
+.form {
+	margin-top: 6px;
+}
+
+.left_elem {
+	float: left;
+}
+
+.right_elem {
+	float: right;
+}
+
+.form_elem {
+	display: inline-block;
+	width: 170px;
+	height: 30px;
+	margin: 6px 0px;
+	border: 2px solid #e3f2fd;
+	font-size: 12px;
+	padding-left: 12px;
+	color: #636363;
+}
+
+.form_elem::-webkit-input-placeholder {
+	color: #636363;
+}
+
+.form_elem::-moz-placeholder {
+	color: #636363;
+}
+
+.form_elem:active,
+.form_elem:hover,
+.form_elem:focus {
+	outline: none;
+}
+
+#select_work {
+	height: 36px;
+	width: 186px;
+	padding-left: 8px
+}
+
+.options:focus {
+	background: red;
+}
+
+#query {
+	width: 372px;
+	height: 60px;
+	padding-top: 10px;
+	resize: none;
+}
+
+#send {
+	font-family: Montserrat-SemiBold;
+	font-size: 12px;
+	color: #fff;
+	background: #1de9b6;
+	border-radius: 5px;
+	height: 34px;
+	border: none;
+	width: 80px;
+}
+
+#send:active,
+#send:hover,
+#send:focus  {
+	outline: none;
+}
+
+.empty {
+	height: 55px;
+}
+
+.footer {
+	height: 55px;
+	background: #fefcf2;
+	margin-top: -55px;
+	color: #636363;
+	min-width: 800px;
+}
+
+.footer_center {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.footer_elem {
+	float: left;
+	font-family: Montserrat-Light;
+	font-size: 14px;
+}
+
+.footer_copyright {
+	margin-left: 190px;
+	margin-top: 18px;
+}
+
+.footer_img {
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+.footer_address {
+	margin-left: 12px;
+	margin-top: 18px;
+}
+
+.clearfix {
+	content:"";
+	display: table;
+	clear: both;
+}
